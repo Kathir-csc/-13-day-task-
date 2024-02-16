@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    onclick : <input type="text" id="evt1" onclick="eventTriggerd(this)"/>
+    <br/>
+    on blur : <input type="text"  id="evt2" onblur="eventTriggerd(this)"/>
+    <br />
+    <form onsubmit="formsubmit(event)">
+     <h3>userform</h3>
+     <div>
+        <label>name</label>
+        <input type="text" id="name" />
+        <span></span>
+     </div>
+     <br />
+
+     <div>
+        <label>email</label>
+        <input type="text" id="email" />
+     </div>
+
+     <br />
+     <button type="summit">summit</button> 
+     <br />
+
+    </form>
+    <script src="index.js"></script> 
+</body>
+</html>
